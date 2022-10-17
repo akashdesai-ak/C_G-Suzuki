@@ -61,7 +61,7 @@
     <div class="navbar-area">
         <!-- Menu For Mobile Device -->
         <div class="mobile-nav">
-            <a href="index.html" class="logo">
+            <a href="../../index.html" class="logo">
                 <img src="../../assets/img/logo.png" alt="Image">
             </a>
         </div>
@@ -70,7 +70,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <div class="logo">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="../../index.html">
                             <img src="../../assets/img/logo.png" class="w-25" alt="Logo">
                         </a>
                     </div>
@@ -166,8 +166,8 @@
                             <div class="col-md-6 col-lg-6">
                                 <div class="product-details">
                                     <div class="like-share float-end">
-                                        <i class="fa fa-heart-o"></i>
-                                        <i class="fa fa-share-alt"></i>
+                                        <i class="fa fa-heart-o" data-toggle="tooltip" title="Add to favorites"></i>
+                                        <i class="fa fa-share-alt" data-toggle="tooltip" title="Share"></i>
                                     </div>
                                     <h3>V-Strom SX</h3>
                                     <!-- <div class="price">
@@ -576,6 +576,11 @@
         document.getElementById("single-product-img").src="../../assets/img/products/motorcycles/vstrom250.png"
        }
     </script>
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
 </body>
 
 </html>

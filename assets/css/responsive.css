@@ -9,8 +9,7 @@
     height: 40px;
     border-radius: 50%;
     line-height: 30px;
-    -webkit-transition: .3s;
-    transition: .3s;
+    transition: 0.3s;
     display: inline-block;
   }
   .main-slider.owl-carousel .owl-nav button.owl-next:hover {
@@ -28,8 +27,7 @@
     height: 40px;
     border-radius: 50%;
     line-height: 30px;
-    -webkit-transition: .3s;
-    transition: .3s;
+    transition: 0.3s;
     display: inline-block;
   }
   .main-slider.owl-carousel .owl-nav button.owl-prev i {
@@ -289,30 +287,31 @@
   .main-banner .single-banner .shape3 .play-video a {
     font-size: 45px;
   }
-  .main-banner .single-banner .shape3 .play-video i.flaticon-play {
-    width: 45px;
-    height: 45px;
+  .main-banner .single-banner .shape3 .play-video i {
+    width: 55px;
+    height: 55px;
   }
   .main-banner .single-banner .shape3 .play-video::after {
     width: 45px;
     height: 45px;
-    left: 0;
+    left: 5px;
   }
   .appoinment-section .appoinment-bg .play-video {
     text-align: center;
     font-size: 80px;
   }
   .appoinment-section .appoinment-bg .play-video i {
-    font-size: 50px;
-    width: 50px;
+    font-size: 10px; 
+    width: 20px;
     height: 50px;
     line-height: 50px;
   }
   .appoinment-section .appoinment-bg .play-video2::after {
-    left: -5px;
-    top: 20px;
+    left: 10px;
+    /* top: 10px; */
     width: 60px;
     height: 60px;
+
   }
   .appoinment-section .appoinment-form .form-group textarea {
     height: 100px;
@@ -591,7 +590,7 @@
     display: none !important;
   }
   .error-page .error-item-wrapper .single-error h1 {
-    color: #ffff;
+    color: white;
     font-size: 135px;
     font-weight: 700;
     text-shadow: -8px 3px 0px #c26b00;
@@ -711,7 +710,8 @@
   }
   .counter-section .single-counter {
     padding-left: 0;
-    text-align-last: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
   }
   .counter-section .single-counter i {
     position: unset;
@@ -722,7 +722,6 @@
     height: 300px;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .main-slider.owl-carousel .owl-nav {
     bottom: 150px !important;
@@ -1146,7 +1145,6 @@
     height: 300px;
   }
 }
-
 @media only screen and (max-width: 767px) and (min-width: 576px) {
   .cart-buttons .text-right {
     text-align: left !important;
@@ -1160,7 +1158,6 @@
     text-align: right;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-slider .single-slider-item {
     height: 800px;
@@ -1345,7 +1342,6 @@
     font-size: 17px;
   }
 }
-
 @media only screen and (min-width: 1550px) {
   .main-slider .single-slider-item .slider-text {
     margin-top: -60px;
@@ -1385,7 +1381,6 @@
     width: 68%;
   }
 }
-
 /* Responsive Style Navbar */
 @media only screen and (max-width: 991px) {
   .navbar-nav {
@@ -1398,16 +1393,15 @@
     top: 0;
     left: 0;
     z-index: 999999;
-    background: #ffff;
-    -webkit-box-shadow: -9px -10px 23px #9a9a9a;
-            box-shadow: -9px -10px 23px #9a9a9a;
-    transition: .5s;
-    -webkit-transition: .5s;
+    background: white;
+    box-shadow: -9px -10px 23px #9a9a9a;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
   }
   .mobile-nav {
     display: block;
     position: relative;
-    background: #ffff;
+    background: white;
   }
   .mobile-nav .logo {
     text-decoration: none;
@@ -1432,8 +1426,7 @@
     padding: 0;
   }
   .mean-container .navbar-nav {
-    -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
-            box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
     margin-top: 0 !important;
     max-height: 50vh;
     overflow-y: scroll;
@@ -1468,12 +1461,10 @@
     display: none !important;
   }
 }
-
 /*
 Continuer Custom Width Area Style*/
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1320px;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */
