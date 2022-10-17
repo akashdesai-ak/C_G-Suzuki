@@ -120,7 +120,7 @@
             <div class="d-tablecell">
                 <div class="container">
                     <div class="banner-text text-center">
-                        <h1>Gixxer</h1>
+                        <h1>Gixxer 250</h1>
                         <ul>
                             <li>
                                 <a href="../../index.html">home</a>
@@ -149,7 +149,7 @@
                             <div class="col-md-6 col-lg-6">
                                 <div class="shop-single-slider">
                                     <div class="slider-for border-for">
-                                        <div><img src="../../assets/img/products/motorcycles/gixer250.png" alt></div>
+                                        <div><img id="single-product-img" src="../../assets/img/products/motorcycles/gixer250.png" alt></div>
                                         <div><img src="../../assets/img/products/motorcycles/gixer250-black.png" alt></div>
                                        
                                        
@@ -163,17 +163,28 @@
 
                             <div class="col-md-6 col-lg-6">
                                 <div class="product-details">
+                                    <div class="like-share float-end">
+                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-share-alt"></i>
+                                    </div>
                                     <h3>Gixxer 250</h3>
                                     <!-- <div class="price">
                                         <span class="current">$9.00</span>
                                         <del class="old">$15.99</del>
                                     </div> -->
+                                    <div class="">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                    </div>
                                     <p>Suzuki Gixxer 250 is a street bike available in India. It is available in only 1 variant and 2 colours. The Suzuki Gixxer 250 is powered by 249cc BS6 engine which develops a power of 26.13 bhp and a torque of 22.2 Nm. With both front and rear disc brakes, Suzuki Gixxer 250 comes up with anti-locking braking system. This Gixxer 250 bike weighs 156 kg and has a fuel tank capacity of 12 liters.</p>
                                     <div class="product-color d-flex">
                                         <p>Colours :</p>
                                         <ul class="d-flex">
-                                            <li style="background-color:#307BCD ;"></li>
-                                            <li style="background-color:#222222 ;"></li>
+                                            <a onclick="color1()"> <li style="background-color:#307BCD ;"></li></a>
+                                            <a onclick="color2()">  <li style="background-color:#222222 ;"></li></a>
                                         </ul>
                                     </div>
                                     <div class="product-option">
@@ -203,109 +214,61 @@
                                     <a class="nav-link active" data-bs-toggle="pill" href="#home">description</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link mr-0" data-bs-toggle="pill" href="#menu2">reviews (2)</a>
+                                    <a class="nav-link mr-0" data-bs-toggle="pill" href="#menu2">Specifications</a>
                                 </li>
                             </ul>
                             <!-- Tab panes -->
                             <div class="tab-content shop-tab">
                                 <div id="home" class="tab-pane active description">
                                     <h3>Description</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+                                    <p>The Suzuki Gixxer 250 is a quarter-litre motorcycle from Suzuki and is a street-fighter version of the Gixxer SF 250. It carries majority of the aesthetic cues from its smaller sibling, but has much better road presence, thanks to the use of large body panels and better cycle parts. The Gixxer 250 gets LED tail and head lights. The turn indicators, however, still get the same old bulb setup. The neatly designed double-barrel megaphone exhaust canister looks pretty good on it. The bike is equipped with split seats and an instrument cluster that is easy to read in daylight as well during night.</p>
+                                    <p>The Suzuki Gixxer gets its power from a 249cc single-cylinder oil-cooled engine that makes around 26.1bhp of power at 9300rpm and 22.2Nm of peak torque at 7300rpm. Transmission duties are handled by a slick six-speed gearbox. The bike rides on telescopic forks up front and a monoshock for the rear. Meanwhile, for braking, the Gixxer 250 employs disc brakes at both ends that are assisted by dual-channel ABS as standard fitment.</p>
                                 </div>
             
                                 <div id="menu2" class="tab-pane review fade">
-                                    <h3>2 reviews for car</h3>
-                                    <ol>
-                                        <li>
-                                            <div class="comment-wrap">
-                                                <div class="prof-image">
-                                                    <img src="../../assets/img/shop/member/6.jpg" alt="Image">
-                                                </div>
-                                                <div class="text-wrap">
-                                                    <div class="text-meta">
-                                                        <strong>Cindey Rain</strong>
-                                                        <div class="dashed">-</div>
-                                                        <div class="time">
-                                                            <i class="fa fa-clock-o" aria-hidden="true"></i> jauary 1, 2019
-                                                        </div>
-                                                        <div class="rate">
-                                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                                            <i class="fa fa-star color " aria-hidden="true"></i>
-                                                        </div>
-                                                    </div>
-                                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="comment-wrap">
-                                                <div class="prof-image">
-                                                    <img src="../../assets/img/shop/member/7.jpg" alt="Image">
-                                                </div>
-                                                <div class="text-wrap">
-                                                    <div class="text-meta">
-                                                        <strong>Cindey Rain</strong>
-                                                        <div class="dashed">-</div>
-                                                        <div class="time">
-                                                            <i class="fa fa-clock-o" aria-hidden="true"></i> jauary 1, 2019
-                                                        </div>
-                                                        <div class="rate">
-                                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                                            <i class="fa fa-star color " aria-hidden="true"></i>
-                                                        </div>
-                                                    </div>
-                                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ol>
-                                    <div class="comment-box-wrapper">
-                                        <div class="comment-heading">
-                                            <h3>add a review</h3>
-                                            <p>Your email address will not be published. Required fields are marked</p>
-                                        </div>
-                                        <div class="raiting-p">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star color " aria-hidden="true"></i>
-                                        </div>
-                                        <div class="comment-form">
-                                            <form id="contactForm" class="form-inline">
-                                                <div class="col-lg-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-6 col-md-6 pl-0">
-                                                            <div class="form-group">
-                                                                <input type="text" name="firstname" id="firstname" class="form-control" placeholder="Name">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-6  col-md-6 p-0">
-                                                            <div class="form-group">
-                                                                <input type="email"  
-                                                                name="email" id="#email" class="form-control" placeholder="Email">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-12 col-md-12 p-0">
-                                                            <div class="form-group">
-                                                                <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Your Message"></textarea>
-                                                            </div>
-                                                        </div>
-            
-                                                        <div class="col-lg-12 col-md-12 p-0">
-                                                            <button type="submit" class="btn custom-btn2">Submit now</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
+                                    <div class="specification-table">
+                                        <h3>Engine and Transmission</h3>
+                                        <table class="table table-active table-borderless table-hover ">
+                                            <tr>
+                                                <td>Engine Capacity</td>
+                                                <td>249 cc</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Max Power</td>
+                                                <td>26.13 bhp @ 9,300 rpm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Drive Type</td>
+                                                <td>Chain Drive</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Transmission</td>
+                                                <td>6 Speed Manual</td>
+                                            </tr>
+                                        </table>
                                     </div>
+                                    <div class="specification-table">
+                                        <h3>Dimensions and Capacity</h3>
+                                        <table class="table table-active table-borderless table-hover">
+                                            <tr>
+                                                <td>Fuel Capacity</td>
+                                                <td >12 L</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Saddle Height</td>
+                                                <td>800 mm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Wheelbase</td>
+                                                <td>1340 mm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Kerb Weight</td>
+                                                <td>156 kg</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -316,58 +279,107 @@
                     <section class="related-post related-post2">
                         <div class="container">
                             <div class="post-title text-center">
-                                <h3>related post</h3>
+                                <h3>related products</h3>
                             </div>
                             <div class="related-post-slider owl-carousel owl-theme">
-                                <div class="single-shop">
-                                    <div class="shop-image">
-                                        <a href="shop-details.html"><img src="../../assets/img/shop/1.png" alt="Image"></a>
-        
-                                        <div class="add-cart-hover">
-                                            <div class="d-table">
-                                                <div class="d-tablecell">
-                                                    <a href="#" class="add-cart">add to cart</a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <!-- single product -->
+                                <div class="single-add-box">
+                                    <div class="image">
+                                        <a href="../../assets/pages/gixxer150.html">
+                                            <img src="../../assets/img/products/motorcycles/gixxer150.png" alt="Image">
+                                        </a>
                                     </div>
-                                    <div class="image-caption">
-                                        <a href="shop-details.html"><h3>Donec Ali berto</h3></a>
-                                        <span>$50.00</span>
+                                    <div class="image-caption-wrapper">
+                                        <div class="add-box-content">
+                                            <a href="../../assets/pages/gixxer150.html">
+                                                <h3>Gixxer 150</h3>
+                                            </a>
+            
+                                        </div>
+                                        <div class="add-box-bottom">
+                                            <a href="../../assets/pages/gixxer150.html">
+                                                <h5>Show Details</h5>
+                                            </a>
+                                            <ul class="react">
+                                                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-share"></i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="single-shop">
-                                    <div class="shop-image">
-                                        <a href="shop-details.html"><img src="../../assets/img/shop/2.png" alt="Image"></a>
-
-                                        <div class="add-cart-hover">
-                                            <div class="d-table">
-                                                <div class="d-tablecell">
-                                                    <a href="#" class="add-cart">add to cart</a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <!-- single product -->
+                                <div class="single-add-box">
+                                    <div class="image">
+                                        <a href="../../assets/pages/gixxer-sf-150.html">
+                                            <img src="../../assets/img/products/motorcycles/gixxer-sf-150.png" alt="Image">
+                                        </a>
                                     </div>
-                                    <div class="image-caption">
-                                        <a href="shop-details.html"><h3>ARMI VITAEST</h3></a>
-                                        <span>$39.00</span>
+                                    <div class="image-caption-wrapper">
+                                        <div class="add-box-content">
+                                            <a href="../../assets/pages/gixxer-sf-150.html">
+                                                <h3>Gixxer SF 150</h3>
+                                            </a>
+            
+                                        </div>
+                                        <div class="add-box-bottom">
+                                            <a href="../../assets/pages/gixxer-sf-150.html">
+                                                <h5>Show Details</h5>
+                                            </a>
+                                            <ul class="react">
+                                                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-share"></i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="single-shop">
-                                    <div class="shop-image">
-                                        <a href="shop-details.html"><img src="../../assets/img/shop/3.png" alt="Image"></a>
-        
-                                        <div class="add-cart-hover">
-                                            <div class="d-table">
-                                                <div class="d-tablecell">
-                                                    <a href="#" class="add-cart">add to cart</a>
-                                                </div>
-                                            </div>
+                                <!-- single product -->
+                                <div class="single-add-box">
+                                    <div class="image">
+                                        <a href="../../assets/pages/gixxer-sf-250.html">
+                                            <img src="../../assets/img/products/motorcycles/gixxer-sf250-black.png" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="image-caption-wrapper">
+                                        <div class="add-box-content">
+                                            <a href="../../assets/pages/gixxer-sf-250.html">
+                                                <h3>Gixxer SF 250</h3>
+                                            </a>
+            
+                                        </div>
+                                        <div class="add-box-bottom">
+                                            <a href="../../assets/pages/gixxer-sf-250.html">
+                                                <h5>Show Details</h5>
+                                            </a>
+                                            <ul class="react">
+                                                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-share"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
-                                    <div class="image-caption">
-                                        <a href="shop-details.html"><h3>AENUEL TRIClE</h3></a>
-                                        <span>$8.00</span>
+                                </div>
+                                <!-- single product -->
+                                <div class="single-add-box">
+                                    <div class="image">
+                                        <a href="../../assets/pages/vstrom-sx.html">
+                                            <img src="../../assets/img/products/motorcycles/suzuki-sx-orange.png" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="image-caption-wrapper">
+                                        <div class="add-box-content">
+                                            <a href="../../assets/pages/vstrom-sx.htmll">
+                                                <h3>V-Strom SX</h3>
+                                            </a>
+            
+                                        </div>
+                                        <div class="add-box-bottom">
+                                            <a href="../../assets/pages/vstrom-sx.html">
+                                                <h5>Show Details</h5>
+                                            </a>
+                                            <ul class="react">
+                                                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-share"></i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -544,6 +556,15 @@
     <script src="../../assets/js/contact-form-script.js"></script>
     <!-- Active Js -->
     <script src="../../assets/js/active.js"></script>
+
+    <script>
+       function color1(){
+        document.getElementById("single-product-img").src="../../assets/img/products/motorcycles/gixer250.png"
+       } 
+       function color2(){
+        document.getElementById("single-product-img").src="../../assets/img/products/motorcycles/gixer250-black.png"
+       }
+    </script>
 </body>
 
 </html>
