@@ -2501,7 +2501,7 @@ Loader Style
   padding-top: 85px;
 }
 .all-page-banner.item-one {
-  background-image: url(../img/all-banner/1.jpg);
+  background-image: url(../img/all-banner/9.jpg);
 }
 .all-page-banner.item-two {
   background-image: url(../img/all-banner/9.jpg);
@@ -3047,8 +3047,9 @@ Loader Style
 }
 .shop-cart-tab .shop-tab .description p {
   font-size: 16px;
-  color: #868686;
+  color: #696969;
   margin-bottom: 0;
+  margin-top: 10px;
 }
 .shop-cart-tab .shop-tab .info h3 {
   font-size: 30px;
@@ -4258,6 +4259,7 @@ blockquote::before {
   height: 20px;
   border: 1px solid #222222;
   border-radius: 100%;
+  cursor: pointer;
 }
 .fa-star,
 .fa-star-half{
