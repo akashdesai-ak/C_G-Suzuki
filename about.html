@@ -38,6 +38,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- floating whatsapp -->
+    <link rel="stylesheet" href="./assets/chatbutton/floating-wpp.css">
 
     <!-- Title -->
     <title>C.G. Suzuki</title>
@@ -57,52 +59,63 @@
     </div>
     <!-- End Preloader -->
 
-   <!-- Start Navbar Area -->
-   <div class="navbar-area">
-    <!-- Menu For Mobile Device -->
-    <div class="mobile-nav">
-        <a href="index.html" class="logo">
-            <img src="assets/img/logo.png" alt="Image">
-        </a> 
-    </div>
-    <!-- Menu For Desktop Device -->
-    <div class="main-nav">
-        <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light">
-                <div class="logo">
-                    <a class="navbar-brand" href="./index.html">
-                        <img src="assets/img/logo.png" class="w-25" alt="Logo">
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link ">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="about.html" class="nav-link active">about</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="motorcycles.html" class="nav-link">Motorcycles</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="scooters.html" class="nav-link">Scooters</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link search-ico" href=".search"><i class="fa fa-search"></i></a>
-                        </li>  
-                    </ul>
-                </div>
-            </nav>
+    <!-- Start Navbar Area -->
+    <div class="navbar-area">
+        <!-- Menu For Mobile Device -->
+        <div class="mobile-nav">
+            <a href="index.html" class="logo">
+                <img src="assets/img/logo.png" alt="Image">
+            </a>
+        </div>
+        <!-- Menu For Desktop Device -->
+        <div class="main-nav">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <div class="logo">
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="assets/img/logo.png" class="w-25" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link ">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link active">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="motorcycles.html" class="nav-link">Motorcycles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="scooters.html" class="nav-link">Scooters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  More
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="./insurance.html">Insurance</a></li>
+                                  <li><a class="dropdown-item" href="./finance.html">Finance</a></li>
+                                  <li><a class="dropdown-item" href="./book-service.html">Book Service</a></li>
+
+                                </ul>
+                              </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link search-ico" href=".search"><i class="fa fa-search"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
     </div>
-</div>
-<!-- End Navbar Area -->
+    <!-- End Navbar Area -->
 
     <!-- Start SearchBox Modal -->
     <div class="search">
@@ -416,6 +429,22 @@
     </footer>
     <!-- End Bottom Footer -->
 
+    <!-- Whatsapp Button -->
+
+    <div id="chatbutton-wa" data-phone="+91" data-showpopup="true" data-headertitle="C.G. Suzuki " data-popupmessage="Hi There!👋
+
+How Can I Help You?" data-placeholder="Type here" data-position="right" data-headercolor="#39847a"
+        data-autoopentimeout="3" data-size="65px">
+        <div class="floating-wpp-button" style="width: 65px; height: 65px;">
+            <div class="floating-wpp-button-image">
+
+                <img src="./assets/img/wp-btn/whatsapp-logo-4.png" alt="">
+
+            </div>
+        </div>
+    </div>
+    <!-- END Whatsapp Button -->
+
 
     <!-- Jquery Min Js -->
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
@@ -446,6 +475,9 @@
     <script src="assets/js/contact-form-script.js"></script>
     <!-- Active Js -->
     <script src="assets/js/active.js"></script>
+    <!-- floating whatsapp -->
+    <script src="./assets/chatbutton/floating-wpp.js"></script>
+    <script src="./assets/chatbutton/script.js"></script>
 </body>
 
 </html>

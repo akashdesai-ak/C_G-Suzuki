@@ -12,12 +12,16 @@
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
     <!-- Theme Default CSS -->
     <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
-    <!-- Font Awesome CSS -->  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"
+        integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
-    
+
     <!-- Magnific Popup CSS -->
     <link rel="stylesheet" href="./assets/css/magnific-popup.min.css">
     <!-- Meanmenu CSS -->
@@ -35,6 +39,11 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="./assets/css/responsive.css">
 
+
+    <!-- floating whatsapp -->
+    <link rel="stylesheet" href="./assets/chatbutton/floating-wpp.css">
+
+
     <!-- Title -->
     <title>C.G. Suzuki</title>
     <!-- Favicon -->
@@ -42,6 +51,65 @@
 </head>
 
 <body>
+
+    <!-- popup modal -->
+    <div class="modal fade center" id="enquiry_modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">How can we help you? </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="mobile" class="form-label">Mobile</label>
+                            <input type="text" id="mobile" class="form-control" value="+91"
+                                aria-describedby="mobileHelp">
+                            <div id="mobileHelp" class="form-text">We'll never share your Mobile Number with anyone
+                                else.</div>
+                        </div>
+                        <div class="mb-5 mt-3">
+                            <div class="">
+                                <label for="model_id" class="form-label">Model</label>
+                            </div>
+                            <div class="">
+                                <select class="w-100" id="model_id" name="model_id">
+                                    <option value="">Select Model</option>
+                                    <option>Suzuki Access 125</option>
+                                    <option>Suzuki Avenis</option>
+                                    <option>Suzuki Burgman Street</option>
+                                    <option>Suzuki Gixxer</option>
+                                    <option>Suzuki Gixxer 250</option>
+                                    <option>Suzuki Gixxer SF</option>
+                                    <option>Suzuki Gixxer SF 250</option>
+                                    <option>Suzuki Hayabusa</option>
+                                    <option>Suzuki Katana</option>
+                                    <option>Suzuki V-Strom 650XT</option>
+                                    <option>Suzuki V-Strom SX</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3 mt-5">
+                            <button title="Send" class="btn w-100"
+                                style="background-color: #BE2026 !important; color: #fff;" type="submit">Book A Test
+                                Drive</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
     <!-- Start Preloader -->
     <div class="preloader">
         <div class="loader">
@@ -87,8 +155,21 @@
                             <li class="nav-item">
                                 <a href="scooters.html" class="nav-link">Scooters</a>
                             </li>
+
                             <li class="nav-item">
                                 <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    More
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="./insurance.html">Insurance</a></li>
+                                    <li><a class="dropdown-item" href="./finance.html">Finance</a></li>
+                                    <li><a class="dropdown-item" href="./book-service.html">Book Service</a></li>
+                                </ul>
                             </li>
                         </ul>
                         <ul class="navbar-nav navbar-nav2">
@@ -310,7 +391,8 @@
                         <div class="single-add-box">
                             <div class="image">
                                 <a href="./assets/pages/gixxer-sf-150.html">
-                                    <img src="./assets/img/products/motorcycles/gixxer-sf-150.png" alt="Image" class="img-fluid">
+                                    <img src="./assets/img/products/motorcycles/gixxer-sf-150.png" alt="Image"
+                                        class="img-fluid">
                                 </a>
                             </div>
                             <div class="image-caption-wrapper">
@@ -737,7 +819,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="single-mission-img pt-4">
-                        <img src="./assets/img/mission/car-modify.jpg"  alt="Shape Image">
+                        <img src="./assets/img/mission/car-modify.jpg" alt="Shape Image">
                     </div>
                 </div>
             </div>
@@ -753,7 +835,7 @@
                 <h2>To Buy A Bike?</h2>
                 <p>MotorLand is nisi aliquip exa con velit esse cillum dolore fugiatal sint
                     occaecat excepteur ipsum dolor sit amet consectetur.</p>
-               
+
             </div>
             <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-4">
@@ -797,7 +879,7 @@
     </section>
     <!-- End Counter Section -->
 
-   
+
 
     <!-- Start Testimonial Section -->
     <section class="testimonial-section testimonial-2 ptb-100">
@@ -880,8 +962,7 @@
                             <div class="d-table">
                                 <div class="d-tablecell">
                                     <div class="play-videos">
-                                        <a class="popup-youtube play-video2"
-                                            href="">
+                                        <a class="popup-youtube play-video2" href="">
                                             <i class="fa fa-play"></i>
                                         </a>
                                     </div>
@@ -1086,7 +1167,7 @@
                                         contact us
                                     </a>
                                 </li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -1100,7 +1181,8 @@
                                 <li>
                                     <a href="#">
                                         <i class="fa fa-location-dot"></i>
-                                        Shop No. 21/22, Satyam Towers, Plot No. 18/19, Sector-20, Koparkhairane, Navi Mumbai.
+                                        Shop No. 21/22, Satyam Towers, Plot No. 18/19, Sector-20, Koparkhairane, Navi
+                                        Mumbai.
                                     </a>
                                 </li>
                                 <li>
@@ -1142,8 +1224,26 @@
     <!-- End Bottom Footer -->
 
 
+
+    <!-- Whatsapp Button -->
+
+    <div id="chatbutton-wa" data-phone="+91" data-showpopup="true" data-headertitle="C.G. Suzuki " data-popupmessage="Hi There!👋
+
+How Can I Help You?" data-placeholder="Type here" data-position="right" data-headercolor="#39847a"
+        data-autoopentimeout="3" data-size="65px">
+        <div class="floating-wpp-button circle pulse" style="width: 65px; height: 65px;">
+            <div class="floating-wpp-button-image ">
+
+                <img src="./assets/img/wp-btn/whatsapp-logo-4.png" alt="">
+
+            </div>
+        </div>
+    </div>
+    <!-- END Whatsapp Button -->
+
+
     <!-- Jquery Min Js -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+
     <script src="./assets/js/jquery.min.js"></script>
     <!-- Bootstrap Min Js -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
@@ -1171,6 +1271,21 @@
     <script src="./assets/js/contact-form-script.js"></script>
     <!-- Active Js -->
     <script src="./assets/js/active.js"></script>
+    <!-- floating whatsapp -->
+    <script src="./assets/chatbutton/floating-wpp.js"></script>
+    <script src="./assets/chatbutton/script.js"></script>
+
+    <!-- popup modal -->
+    <script type="text/javascript">
+        let delayPopup = 2000;
+
+        $(document).ready(function () {
+            setTimeout(function () {
+                $("#enquiry_modal").modal('show')
+            }, delayPopup)
+        });
+    </script>
+
 </body>
 
 </html>
